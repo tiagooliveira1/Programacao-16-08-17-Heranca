@@ -1,5 +1,10 @@
 package opet.aulatds.veiculos;
 
+/**
+ * Classe que irá representar automovel 
+ * @author Tiago Oliveira
+ *
+ */
 public class Automovel extends Veiculo {
 	private String marca = "";
 	private String fabricante = "";

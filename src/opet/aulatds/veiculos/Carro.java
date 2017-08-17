@@ -8,7 +8,7 @@ package opet.aulatds.veiculos;
 public class Carro extends Automovel{
 	
 	/**
-	 * Armazena a cor do veículo
+	 * Armazena o tamanho do porta-malas
 	 */
 	private int tamanho_porta_malas = 0;
 	

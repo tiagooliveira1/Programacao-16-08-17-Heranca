@@ -1,5 +1,11 @@
 package opet.aulatds.veiculos;
 
+/**
+ * Classe que irá representar o vagao 
+ * @author Tiago Oliveira
+ *
+ */
+
 public class Vagao {
 	private float capacidade = 0.0f;
 	private String cor = ""; 

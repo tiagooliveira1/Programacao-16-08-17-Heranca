@@ -1,5 +1,9 @@
 package opet.aulatds.veiculos;
-
+/**
+ * Classe que irá representar o trem 
+ * @author Tiago Oliveira
+ *
+ */
 import java.util.ArrayList;
 
 public class Trem extends Veiculo{

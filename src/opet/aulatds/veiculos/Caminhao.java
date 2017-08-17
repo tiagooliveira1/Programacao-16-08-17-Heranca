@@ -1,7 +1,16 @@
 package opet.aulatds.veiculos;
 
+/**
+ * Classe que irá representar o o caminhão
+ * @author troli
+ *
+ */
+
 public class Caminhao extends Automovel{
 	
+	/**
+	 * Armazena a tara do caminhao
+	 */
 	private float tara = 0.0f;
 	
 	public Caminhao(float tara)
