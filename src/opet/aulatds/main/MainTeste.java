@@ -12,6 +12,8 @@ public class MainTeste {
 		
 		Carro Segundo_carro = new Carro("vermelho", 2017);
 		
+		Segundo_carro.setFabricante("Chevrolet");
+		Segundo_carro.setMarca("");
 		
 		Trem trem = new Trem();
 		trem.addVagao(114000, "vermelho");

@@ -2,7 +2,7 @@ package opet.aulatds.veiculos;
 
 import java.util.ArrayList;
 
-public class Trem {
+public class Trem extends Veiculo{
 
 	private ArrayList<Vagao> vagoes;
 	

@@ -5,26 +5,13 @@ package opet.aulatds.veiculos;
  * @author troli
  *
  */
-public class Carro {
+public class Carro extends Automovel{
 	
 	/**
 	 * Armazena a cor do veículo
 	 */
-	private String cor = "";
-	/**
-	 * Armazena o ano do veículo
-	 * 
-	 */
-	private int ano = 0;
-	/**
-	 * Armazena a marca do veículo
-	 * 
-	 */
-	private String marca = "";
-	/**
-	 * Armazena o fabricante do veículo
-	 */
-	private String fabricante = "";
+	private int tamanho_porta_malas = 0;
+	
 	
 	/**
 	 * Construtor da classe Carro. 
@@ -32,8 +19,9 @@ public class Carro {
 	 * @param ano ano do veículo
 	 */
 	public Carro(String cor, int ano) {
-		this.cor = cor;
-		this.ano = ano;
+		this.setAno(ano);
+		this.setCor(cor); 
+		this.setAno(ano);
 	}
 	/**
 	 * Construtor da classe Carro. 
@@ -42,52 +30,16 @@ public class Carro {
 	public Carro() {
 		
 	}
+	public int getTamanho_porta_malas() {
+		return tamanho_porta_malas;
+	}
+	public void setTamanho_porta_malas(int tamanho_porta_malas) {
+		this.tamanho_porta_malas = tamanho_porta_malas;
+	}
 	
 	/**
 	 * Retorna o ano do veículo
 	 */
-	public int getAno() {
-		return ano;
-	}
-
-	public void setAno(int ano) {
-		this.ano = ano;
-	}
-	
-	/**
-	 * Retorna a cor do veículo
-	 */
-	public String getCor() {
-		return cor;
-	}
-
-	public void setCor(String cor) {
-		this.cor = cor;
-	}
-
-
-
-	public String getMarca() {
-		return marca;
-	}
-
-
-
-	public void setMarca(String marca) {
-		this.marca = marca;
-	}
-
-
-
-	public String getFabricante() {
-		return fabricante;
-	}
-
-
-
-	public void setFabricante(String fabricante) {
-		this.fabricante = fabricante;
-	}
 	
 
 }
